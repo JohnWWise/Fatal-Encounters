@@ -9,38 +9,84 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             padding: 20px;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
         }
-        h1 {
+        h1, h2 {
             color: #333;
         }
-        ul {
-            padding-left: 20px;
+        .visualization {
+            margin-bottom: 40px;
         }
-        li {
-            margin-bottom: 10px;
+        .iframe-container {
+            width: 100%;
+            height: 600px;
+            margin: 20px 0;
         }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
     <h1>Fatal Encounters Data Visualizations</h1>
-    <ul>
-        <li><a href="data/out/time_series.html">Time Series of Fatal Encounters</a></li>
-        <li><a href="data/out/Age_and_Race_Distribution_by_Gender.html">Age and Race Distribution by Gender</a></li>
-        <li><a href="data/out/us_states_choropleth.html">US States Choropleth</a></li>
-        <li><a href="data/out/us_states_2015_fatal_encounters_choropleth.html">US States 2015 Fatal Encounters Choropleth</a></li>
-        <li><a href="data/out/top_50_by_force.html">Top 50 Agencies by Force Used</a></li>
-        <li><a href="data/out/armed_weapon.html">Armed Status and Weapons</a></li>
-        <li><a href="data/out/movement_pie_chart.html">Movement Pie Chart</a></li>
-        <li><a href="data/out/fleeing_stacked_force.html">Fleeing Status and Force Used</a></li>
-    </ul>
+    
+    <div class="visualization">
+        <h2>Time Series of Fatal Encounters</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/time_series.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>Age and Race Distribution by Gender</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/Age_and_Race_Distribution_by_Gender.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>US States Choropleth</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/us_states_choropleth.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>US States 2015 Fatal Encounters Choropleth</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/us_states_2015_fatal_encounters_choropleth.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>Top 50 Agencies by Force Used</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/top_50_by_force.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>Armed Status and Weapons</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/armed_weapon.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>Movement Pie Chart</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/movement_pie_chart.html"></iframe>
+        </div>
+    </div>
+
+    <div class="visualization">
+        <h2>Fleeing Status and Force Used</h2>
+        <div class="iframe-container">
+            <iframe src="data/out/fleeing_stacked_force.html"></iframe>
+        </div>
+    </div>
 </body>
 </html>
