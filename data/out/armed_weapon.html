@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "hconcat": [{"data": {"name": "data-76548d56f01df65422f4b65ccb1d9ab1"}, "mark": {"type": "arc"}, "encoding": {"color": {"field": "Status", "legend": null, "type": "nominal"}, "theta": {"field": "Count", "type": "quantitative"}, "tooltip": [{"field": "Status", "type": "nominal"}, {"field": "Count", "type": "quantitative"}]}, "title": "Armed/Unarmed Status"}, {"data": {"name": "data-ed49d95f2ec6037993512e6587031f66"}, "mark": {"type": "arc"}, "encoding": {"color": {"field": "Weapon", "legend": null, "type": "nominal"}, "theta": {"field": "Count", "type": "quantitative"}, "tooltip": [{"field": "Weapon", "type": "nominal"}, {"field": "Count", "type": "quantitative"}]}, "title": "Alleged Weapon for Armed Individuals"}], "resolve": {"scale": {"color": "independent"}}, "title": "Comparison of Armed/Unarmed Status and Alleged Weapon Use", "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-76548d56f01df65422f4b65ccb1d9ab1": [{"Status": "Unknown", "Count": 14431}, {"Status": "Armed", "Count": 10543}, {"Status": "Unarmed", "Count": 6122}, {"Status": "Uncertain", "Count": 402}], "data-ed49d95f2ec6037993512e6587031f66": [{"Weapon": "Firearm", "Count": 8111}, {"Weapon": "Edged weapon", "Count": 1812}, {"Weapon": "Blunt object", "Count": 256}, {"Weapon": "Other", "Count": 149}, {"Weapon": "Vehicle", "Count": 73}, {"Weapon": "Uncertain", "Count": 71}, {"Weapon": "Stun gun", "Count": 45}, {"Weapon": "Stun Gun", "Count": 6}, {"Weapon": "Edged Weapon", "Count": 4}, {"Weapon": "Fiream", "Count": 3}, {"Weapon": "Rifle", "Count": 2}, {"Weapon": "Handgun", "Count": 1}, {"Weapon": "Taser", "Count": 1}, {"Weapon": "Blunt Object", "Count": 1}, {"Weapon": "Knife", "Count": 1}, {"Weapon": "Firerm", "Count": 1}, {"Weapon": "Edged wapon", "Count": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

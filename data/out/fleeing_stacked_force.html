@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-2aed25b0e166b458810fffb1d9cde629"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "Intended use of force (Developing)", "title": "Intended Use of Force", "type": "nominal"}, "tooltip": [{"field": "Fleeing/Not fleeing", "type": "nominal"}, {"field": "Intended use of force (Developing)", "type": "nominal"}, {"field": "Count", "type": "quantitative"}], "x": {"aggregate": "sum", "field": "Count", "title": "Number of Incidents", "type": "quantitative"}, "y": {"field": "Fleeing/Not fleeing", "sort": {"field": "Count_Total", "order": "descending"}, "type": "nominal"}}, "height": 400, "title": "Incidents by Fleeing Status and Intended Use of Force", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-2aed25b0e166b458810fffb1d9cde629": [{"Fleeing/Not fleeing": "Fleeing", "Intended use of force (Developing)": "Deadly force", "Count": 2937, "Count_Total": 6004}, {"Fleeing/Not fleeing": "Fleeing", "Intended use of force (Developing)": "Less-than-lethal force", "Count": 338, "Count_Total": 6004}, {"Fleeing/Not fleeing": "Fleeing", "Intended use of force (Developing)": "Pursuit", "Count": 2304, "Count_Total": 6004}, {"Fleeing/Not fleeing": "Fleeing", "Intended use of force (Developing)": "Suicide", "Count": 425, "Count_Total": 6004}, {"Fleeing/Not fleeing": "Not fleeing", "Intended use of force (Developing)": "Deadly force", "Count": 7381, "Count_Total": 10905}, {"Fleeing/Not fleeing": "Not fleeing", "Intended use of force (Developing)": "Less-than-lethal force", "Count": 905, "Count_Total": 10905}, {"Fleeing/Not fleeing": "Not fleeing", "Intended use of force (Developing)": "Pursuit", "Count": 1186, "Count_Total": 10905}, {"Fleeing/Not fleeing": "Not fleeing", "Intended use of force (Developing)": "Suicide", "Count": 1418, "Count_Total": 10905}, {"Fleeing/Not fleeing": "Not fleeing", "Intended use of force (Developing)": "Undetermined", "Count": 15, "Count_Total": 10905}, {"Fleeing/Not fleeing": "Uncertain", "Intended use of force (Developing)": "Deadly force", "Count": 132, "Count_Total": 169}, {"Fleeing/Not fleeing": "Uncertain", "Intended use of force (Developing)": "Less-than-lethal force", "Count": 10, "Count_Total": 169}, {"Fleeing/Not fleeing": "Uncertain", "Intended use of force (Developing)": "Pursuit", "Count": 10, "Count_Total": 169}, {"Fleeing/Not fleeing": "Uncertain", "Intended use of force (Developing)": "Suicide", "Count": 13, "Count_Total": 169}, {"Fleeing/Not fleeing": "Uncertain", "Intended use of force (Developing)": "Undetermined", "Count": 4, "Count_Total": 169}, {"Fleeing/Not fleeing": "Unknown", "Intended use of force (Developing)": "Deadly force", "Count": 8449, "Count_Total": 14420}, {"Fleeing/Not fleeing": "Unknown", "Intended use of force (Developing)": "Less-than-lethal force", "Count": 1396, "Count_Total": 14420}, {"Fleeing/Not fleeing": "Unknown", "Intended use of force (Developing)": "Pursuit", "Count": 3055, "Count_Total": 14420}, {"Fleeing/Not fleeing": "Unknown", "Intended use of force (Developing)": "Suicide", "Count": 1488, "Count_Total": 14420}, {"Fleeing/Not fleeing": "Unknown", "Intended use of force (Developing)": "Undetermined", "Count": 32, "Count_Total": 14420}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

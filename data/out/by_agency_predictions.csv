@@ -1,0 +1,601 @@
+,Agency,Year,Predicted Deaths,Lower CI,Upper CI
+0,Akron Police Department,2022,1,0,3
+1,Akron Police Department,2023,1,0,3
+2,Akron Police Department,2024,1,0,4
+3,Alaska State Troopers,2022,4,1,6
+4,Alaska State Troopers,2023,3,0,6
+5,Alaska State Troopers,2024,3,0,7
+6,Albuquerque Police Department,2022,10,4,16
+7,Albuquerque Police Department,2023,10,3,17
+8,Albuquerque Police Department,2024,10,2,18
+9,Amarillo Police Department,2022,2,0,6
+10,Amarillo Police Department,2023,2,0,6
+11,Amarillo Police Department,2024,2,0,7
+12,Anchorage Police Department,2022,2,0,6
+13,Anchorage Police Department,2023,1,0,7
+14,Anchorage Police Department,2024,1,0,8
+15,Atlanta Police Department,2022,7,2,12
+16,Atlanta Police Department,2023,5,0,11
+17,Atlanta Police Department,2024,6,0,13
+18,Aurora Police Department,2022,2,0,8
+19,Aurora Police Department,2023,2,0,10
+20,Aurora Police Department,2024,2,0,11
+21,Austin Police Department,2022,5,2,8
+22,Austin Police Department,2023,6,3,10
+23,Austin Police Department,2024,6,2,10
+24,Bakersfield Police Department,2022,4,0,9
+25,Bakersfield Police Department,2023,5,0,10
+26,Bakersfield Police Department,2024,5,0,11
+27,Baltimore County Police Department,2022,3,0,8
+28,Baltimore County Police Department,2023,4,0,9
+29,Baltimore County Police Department,2024,4,0,9
+30,Baltimore Police Department,2022,5,0,13
+31,Baltimore Police Department,2023,5,0,14
+32,Baltimore Police Department,2024,5,0,16
+33,Baton Rouge Police Department,2022,0,0,3
+34,Baton Rouge Police Department,2023,0,0,4
+35,Baton Rouge Police Department,2024,0,0,4
+36,Bernalillo County Sheriff's Office,2022,3,0,7
+37,Bernalillo County Sheriff's Office,2023,3,0,7
+38,Bernalillo County Sheriff's Office,2024,3,0,8
+39,Bexar County Sheriff's Office,2022,5,2,8
+40,Bexar County Sheriff's Office,2023,4,0,7
+41,Bexar County Sheriff's Office,2024,5,0,9
+42,Birmingham Police Department,2022,5,1,9
+43,Birmingham Police Department,2023,5,0,10
+44,Birmingham Police Department,2024,5,0,11
+45,Boston Police Department,2022,1,0,4
+46,Boston Police Department,2023,2,0,5
+47,Boston Police Department,2024,1,0,5
+48,Broward County Sheriff's Office,2022,2,0,6
+49,Broward County Sheriff's Office,2023,1,0,6
+50,Broward County Sheriff's Office,2024,2,0,7
+51,California Highway Patrol,2022,22,12,31
+52,California Highway Patrol,2023,22,11,32
+53,California Highway Patrol,2024,22,9,34
+54,Charlotte-Mecklenburg Police Department,2022,2,0,6
+55,Charlotte-Mecklenburg Police Department,2023,2,0,7
+56,Charlotte-Mecklenburg Police Department,2024,2,0,8
+57,Chattanooga Police Department,2022,2,0,4
+58,Chattanooga Police Department,2023,1,0,4
+59,Chattanooga Police Department,2024,1,0,5
+60,Chicago Police Department,2022,14,0,28
+61,Chicago Police Department,2023,12,0,28
+62,Chicago Police Department,2024,13,0,32
+63,Cincinnati Police Department,2022,1,0,4
+64,Cincinnati Police Department,2023,1,0,5
+65,Cincinnati Police Department,2024,1,0,6
+66,City of New York Police Department,2022,11,3,20
+67,City of New York Police Department,2023,11,0,23
+68,City of New York Police Department,2024,11,0,25
+69,Cleveland Police Department,2022,3,0,7
+70,Cleveland Police Department,2023,4,0,7
+71,Cleveland Police Department,2024,4,0,8
+72,Cobb County Police Department,2022,6,1,11
+73,Cobb County Police Department,2023,7,1,12
+74,Cobb County Police Department,2024,6,0,13
+75,Colorado Springs Police Department,2022,5,2,9
+76,Colorado Springs Police Department,2023,6,2,10
+77,Colorado Springs Police Department,2024,6,1,11
+78,Columbus Division of Police,2022,1,0,6
+79,Columbus Division of Police,2023,1,0,7
+80,Columbus Division of Police,2024,1,0,8
+81,Contra Costa County Sheriff's Office,2022,1,0,4
+82,Contra Costa County Sheriff's Office,2023,0,0,3
+83,Contra Costa County Sheriff's Office,2024,0,0,4
+84,Corpus Christi Police Department,2022,3,1,6
+85,Corpus Christi Police Department,2023,4,1,7
+86,Corpus Christi Police Department,2024,4,0,7
+87,Denver Police Department,2022,7,2,12
+88,Denver Police Department,2023,6,1,11
+89,Denver Police Department,2024,7,1,13
+90,Detroit Police Department,2022,9,3,16
+91,Detroit Police Department,2023,9,2,17
+92,Detroit Police Department,2024,9,0,19
+93,El Paso Police Department,2022,2,0,5
+94,El Paso Police Department,2023,2,0,5
+95,El Paso Police Department,2024,2,0,5
+96,Escambia County Sheriff's Office,2022,4,2,7
+97,Escambia County Sheriff's Office,2023,3,1,6
+98,Escambia County Sheriff's Office,2024,4,0,7
+99,Fayetteville Police Department,2022,1,0,3
+100,Fayetteville Police Department,2023,1,0,4
+101,Fayetteville Police Department,2024,1,0,4
+102,Florida Highway Patrol,2022,3,1,5
+103,Florida Highway Patrol,2023,2,1,4
+104,Florida Highway Patrol,2024,3,1,5
+105,Fontana Police Department,2022,5,1,9
+106,Fontana Police Department,2023,5,0,10
+107,Fontana Police Department,2024,5,0,11
+108,Fresno Police Department,2022,10,3,16
+109,Fresno Police Department,2023,5,0,12
+110,Fresno Police Department,2024,8,0,17
+111,Garland Police Department,2022,1,0,4
+112,Garland Police Department,2023,1,0,5
+113,Garland Police Department,2024,1,0,6
+114,Georgia State Patrol,2022,13,8,18
+115,Georgia State Patrol,2023,13,6,20
+116,Georgia State Patrol,2024,13,5,21
+117,Glendale Police Department,2022,3,0,6
+118,Glendale Police Department,2023,3,0,6
+119,Glendale Police Department,2024,3,0,6
+120,Greenville Police Department,2022,2,0,5
+121,Greenville Police Department,2023,1,0,5
+122,Greenville Police Department,2024,2,0,6
+123,Harris County Sheriff's Office,2022,12,7,18
+124,Harris County Sheriff's Office,2023,10,4,16
+125,Harris County Sheriff's Office,2024,11,4,19
+126,Hillsborough County Sheriff's Office,2022,3,0,8
+127,Hillsborough County Sheriff's Office,2023,3,0,9
+128,Hillsborough County Sheriff's Office,2024,3,0,10
+129,Honolulu Police Department,2022,5,1,10
+130,Honolulu Police Department,2023,6,0,11
+131,Honolulu Police Department,2024,6,0,12
+132,Houston Police Department,2022,23,12,34
+133,Houston Police Department,2023,23,10,36
+134,Houston Police Department,2024,23,8,38
+135,Illinois State Police,2022,2,0,6
+136,Illinois State Police,2023,1,0,6
+137,Illinois State Police,2024,2,0,7
+138,Independence Police Department,2022,3,0,7
+139,Independence Police Department,2023,3,0,7
+140,Independence Police Department,2024,3,0,8
+141,Indiana State Police,2022,5,1,9
+142,Indiana State Police,2023,5,1,10
+143,Indiana State Police,2024,5,0,11
+144,Inglewood Police Department,2022,0,0,3
+145,Inglewood Police Department,2023,0,0,3
+146,Inglewood Police Department,2024,0,0,3
+147,Jackson County Sheriff's Office,2022,5,2,9
+148,Jackson County Sheriff's Office,2023,6,1,10
+149,Jackson County Sheriff's Office,2024,5,0,11
+150,Jackson Police Department,2022,2,0,6
+151,Jackson Police Department,2023,3,0,7
+152,Jackson Police Department,2024,3,0,8
+153,Jacksonville Sheriff's Office,2022,6,0,13
+154,Jacksonville Sheriff's Office,2023,5,0,14
+155,Jacksonville Sheriff's Office,2024,6,0,16
+156,Jefferson County Sheriff's Office,2022,3,0,6
+157,Jefferson County Sheriff's Office,2023,4,0,7
+158,Jefferson County Sheriff's Office,2024,3,0,7
+159,Kansas City Police Department,2022,12,3,21
+160,Kansas City Police Department,2023,9,0,19
+161,Kansas City Police Department,2024,11,0,23
+162,King County Sheriff's Office,2022,4,0,7
+163,King County Sheriff's Office,2023,2,0,5
+164,King County Sheriff's Office,2024,3,0,7
+165,Las Vegas Metropolitan Police Department,2022,17,9,26
+166,Las Vegas Metropolitan Police Department,2023,16,7,26
+167,Las Vegas Metropolitan Police Department,2024,17,6,28
+168,Little Rock Police Department,2022,3,0,8
+169,Little Rock Police Department,2023,1,0,7
+170,Little Rock Police Department,2024,2,0,9
+171,Long Beach Police Department,2022,3,0,7
+172,Long Beach Police Department,2023,3,0,7
+173,Long Beach Police Department,2024,3,0,8
+174,Los Angeles County Sheriff's Department,2022,12,2,23
+175,Los Angeles County Sheriff's Department,2023,12,0,26
+176,Los Angeles County Sheriff's Department,2024,12,0,29
+177,Los Angeles Police Department,2022,15,2,27
+178,Los Angeles Police Department,2023,18,5,32
+179,Los Angeles Police Department,2024,16,0,32
+180,Louisiana State Police,2022,5,1,8
+181,Louisiana State Police,2023,4,0,8
+182,Louisiana State Police,2024,4,0,9
+183,Louisville Metro Police Department,2022,4,0,9
+184,Louisville Metro Police Department,2023,3,0,9
+185,Louisville Metro Police Department,2024,3,0,10
+186,Lubbock Police Department,2022,3,0,5
+187,Lubbock Police Department,2023,1,0,3
+188,Lubbock Police Department,2024,2,0,6
+189,Maine State Police,2022,1,0,3
+190,Maine State Police,2023,0,0,3
+191,Maine State Police,2024,1,0,4
+192,Maryland State Police,2022,3,0,7
+193,Maryland State Police,2023,2,0,7
+194,Maryland State Police,2024,3,0,8
+195,Memphis Police Department,2022,3,0,10
+196,Memphis Police Department,2023,4,0,12
+197,Memphis Police Department,2024,4,0,14
+198,Mesa Police Department,2022,2,0,6
+199,Mesa Police Department,2023,2,0,7
+200,Mesa Police Department,2024,2,0,7
+201,Metropolitan Nashville Police Department,2022,11,5,16
+202,Metropolitan Nashville Police Department,2023,11,3,18
+203,Metropolitan Nashville Police Department,2024,11,2,20
+204,Miami-Dade Police Department,2022,12,4,19
+205,Miami-Dade Police Department,2023,11,2,19
+206,Miami-Dade Police Department,2024,11,1,21
+207,Michigan State Police,2022,7,0,16
+208,Michigan State Police,2023,8,0,18
+209,Michigan State Police,2024,8,0,19
+210,Milwaukee Police Department,2022,9,4,14
+211,Milwaukee Police Department,2023,9,3,15
+212,Milwaukee Police Department,2024,9,2,16
+213,Minneapolis Police Department,2022,4,0,8
+214,Minneapolis Police Department,2023,2,0,7
+215,Minneapolis Police Department,2024,3,0,9
+216,Modesto Police Department,2022,1,0,5
+217,Modesto Police Department,2023,1,0,5
+218,Modesto Police Department,2024,1,0,6
+219,Montgomery County Sheriff's Office,2022,3,1,5
+220,Montgomery County Sheriff's Office,2023,3,1,5
+221,Montgomery County Sheriff's Office,2024,3,0,6
+222,Montgomery Police Department,2022,2,0,4
+223,Montgomery Police Department,2023,2,0,5
+224,Montgomery Police Department,2024,2,0,5
+225,New Jersey State Police,2022,1,0,7
+226,New Jersey State Police,2023,1,0,7
+227,New Jersey State Police,2024,1,0,9
+228,New Orleans Police Department,2022,1,0,8
+229,New Orleans Police Department,2023,1,0,10
+230,New Orleans Police Department,2024,1,0,12
+231,Newark Police Department,2022,1,0,6
+232,Newark Police Department,2023,1,0,7
+233,Newark Police Department,2024,1,0,8
+234,Norfolk Police Department,2022,0,0,5
+235,Norfolk Police Department,2023,0,0,6
+236,Norfolk Police Department,2024,0,0,7
+237,North Carolina State Highway Patrol,2022,1,0,6
+238,North Carolina State Highway Patrol,2023,1,0,6
+239,North Carolina State Highway Patrol,2024,1,0,8
+240,Oakland Police Department,2022,2,0,7
+241,Oakland Police Department,2023,1,0,7
+242,Oakland Police Department,2024,2,0,8
+243,Ohio State Highway Patrol,2022,3,0,6
+244,Ohio State Highway Patrol,2023,3,0,7
+245,Ohio State Highway Patrol,2024,3,0,7
+246,Oklahoma City Police Department,2022,9,4,15
+247,Oklahoma City Police Department,2023,10,3,16
+248,Oklahoma City Police Department,2024,9,2,17
+249,Oklahoma Highway Patrol,2022,5,0,10
+250,Oklahoma Highway Patrol,2023,2,0,8
+251,Oklahoma Highway Patrol,2024,3,0,10
+252,Omaha Police Department,2022,2,0,8
+253,Omaha Police Department,2023,3,0,9
+254,Omaha Police Department,2024,3,0,10
+255,Ontario Police Department,2022,0,0,3
+256,Ontario Police Department,2023,1,0,4
+257,Ontario Police Department,2024,0,0,4
+258,Orange County Sheriff's Office,2022,3,0,10
+259,Orange County Sheriff's Office,2023,3,0,10
+260,Orange County Sheriff's Office,2024,3,0,12
+261,Pasadena Police Department,2022,3,0,6
+262,Pasadena Police Department,2023,2,0,5
+263,Pasadena Police Department,2024,2,0,6
+264,Pennsylvania State Police,2022,13,7,20
+265,Pennsylvania State Police,2023,15,8,22
+266,Pennsylvania State Police,2024,14,5,23
+267,Philadelphia Police Department,2022,6,0,17
+268,Philadelphia Police Department,2023,5,0,18
+269,Philadelphia Police Department,2024,5,0,21
+270,Phoenix Police Department,2022,13,2,23
+271,Phoenix Police Department,2023,11,0,23
+272,Phoenix Police Department,2024,12,0,27
+273,Pima County Sheriff's Department,2022,0,0,3
+274,Pima County Sheriff's Department,2023,0,0,4
+275,Pima County Sheriff's Department,2024,0,0,4
+276,Pinellas County Sheriff's Office,2022,2,0,7
+277,Pinellas County Sheriff's Office,2023,3,0,8
+278,Pinellas County Sheriff's Office,2024,3,0,9
+279,Pittsburgh Bureau of Police,2022,1,0,4
+280,Pittsburgh Bureau of Police,2023,0,0,4
+281,Pittsburgh Bureau of Police,2024,1,0,5
+282,Portland Police Bureau,2022,2,0,6
+283,Portland Police Bureau,2023,3,0,7
+284,Portland Police Bureau,2024,2,0,8
+285,Redding Police Department,2022,3,1,5
+286,Redding Police Department,2023,3,0,6
+287,Redding Police Department,2024,3,0,6
+288,Reno Police Department,2022,1,0,3
+289,Reno Police Department,2023,1,0,3
+290,Reno Police Department,2024,1,0,4
+291,Richmond Police Department,2022,1,0,5
+292,Richmond Police Department,2023,1,0,5
+293,Richmond Police Department,2024,1,0,6
+294,Riverside County Sheriff's Department,2022,6,0,13
+295,Riverside County Sheriff's Department,2023,6,0,14
+296,Riverside County Sheriff's Department,2024,6,0,16
+297,Sacramento County Sheriff's Office,2022,4,0,8
+298,Sacramento County Sheriff's Office,2023,3,0,8
+299,Sacramento County Sheriff's Office,2024,4,0,10
+300,Sacramento Police Department,2022,5,1,9
+301,Sacramento Police Department,2023,3,0,7
+302,Sacramento Police Department,2024,4,0,10
+303,Salt Lake City Police Department,2022,3,0,6
+304,Salt Lake City Police Department,2023,4,0,7
+305,Salt Lake City Police Department,2024,3,0,8
+306,San Antonio Police Department,2022,14,5,24
+307,San Antonio Police Department,2023,15,3,27
+308,San Antonio Police Department,2024,15,1,29
+309,San Bernardino County Sheriff's Office,2022,10,4,16
+310,San Bernardino County Sheriff's Office,2023,9,3,16
+311,San Bernardino County Sheriff's Office,2024,10,2,18
+312,San Bernardino Police Department,2022,8,1,14
+313,San Bernardino Police Department,2023,3,0,9
+314,San Bernardino Police Department,2024,6,0,14
+315,San Diego County Sheriff's Office,2022,3,0,8
+316,San Diego County Sheriff's Office,2023,3,0,10
+317,San Diego County Sheriff's Office,2024,3,0,12
+318,San Diego Police Department,2022,7,1,13
+319,San Diego Police Department,2023,4,0,11
+320,San Diego Police Department,2024,6,0,14
+321,San Francisco Police Department,2022,2,0,7
+322,San Francisco Police Department,2023,1,0,7
+323,San Francisco Police Department,2024,2,0,9
+324,San Jose Police Department,2022,1,0,6
+325,San Jose Police Department,2023,2,0,6
+326,San Jose Police Department,2024,2,0,7
+327,Santa Ana Police Department,2022,2,0,6
+328,Santa Ana Police Department,2023,1,0,5
+329,Santa Ana Police Department,2024,1,0,6
+330,Seattle Police Department,2022,4,0,9
+331,Seattle Police Department,2023,4,0,10
+332,Seattle Police Department,2024,4,0,11
+333,Shreveport Police Department,2022,3,0,6
+334,Shreveport Police Department,2023,2,0,6
+335,Shreveport Police Department,2024,2,0,7
+336,Spartanburg County Sheriff's Office,2022,1,0,4
+337,Spartanburg County Sheriff's Office,2023,1,0,5
+338,Spartanburg County Sheriff's Office,2024,1,0,5
+339,Springfield Police Department,2022,3,0,7
+340,Springfield Police Department,2023,4,0,9
+341,Springfield Police Department,2024,4,0,9
+342,St. Louis County Police Department,2022,2,0,5
+343,St. Louis County Police Department,2023,3,0,6
+344,St. Louis County Police Department,2024,2,0,6
+345,St. Louis Metropolitan Police Department,2022,4,0,11
+346,St. Louis Metropolitan Police Department,2023,4,0,12
+347,St. Louis Metropolitan Police Department,2024,4,0,14
+348,Stanislaus County Sheriff's Office,2022,1,0,4
+349,Stanislaus County Sheriff's Office,2023,1,0,5
+350,Stanislaus County Sheriff's Office,2024,1,0,5
+351,Stockton Police Department,2022,2,0,6
+352,Stockton Police Department,2023,3,0,7
+353,Stockton Police Department,2024,3,0,8
+354,Tampa Police Department,2022,5,1,10
+355,Tampa Police Department,2023,3,0,8
+356,Tampa Police Department,2024,4,0,10
+357,Toledo Police Department,2022,3,0,6
+358,Toledo Police Department,2023,3,0,6
+359,Toledo Police Department,2024,3,0,7
+360,Topeka Police Department,2022,1,0,4
+361,Topeka Police Department,2023,1,0,4
+362,Topeka Police Department,2024,1,0,5
+363,Tucson Police Department,2022,6,1,12
+364,Tucson Police Department,2023,6,1,12
+365,Tucson Police Department,2024,6,0,13
+366,Tulsa Police Department,2022,5,1,9
+367,Tulsa Police Department,2023,6,1,10
+368,Tulsa Police Department,2024,6,0,11
+369,U.S. Border Patrol,2022,7,0,16
+370,U.S. Border Patrol,2023,6,0,16
+371,U.S. Border Patrol,2024,7,0,19
+372,U.S. Customs and Border Protection,2022,2,0,9
+373,U.S. Customs and Border Protection,2023,1,0,10
+374,U.S. Customs and Border Protection,2024,2,0,12
+375,U.S. Federal Bureau of Investigation,2022,7,2,12
+376,U.S. Federal Bureau of Investigation,2023,7,1,13
+377,U.S. Federal Bureau of Investigation,2024,7,0,14
+378,Virginia State Police,2022,15,8,22
+379,Virginia State Police,2023,15,6,25
+380,Virginia State Police,2024,15,4,27
+381,West Virginia State Police,2022,1,0,5
+382,West Virginia State Police,2023,1,0,5
+383,West Virginia State Police,2024,1,0,6
+384,Westminster Police Department,2022,3,0,6
+385,Westminster Police Department,2023,3,0,7
+386,Westminster Police Department,2024,3,0,7
+387,Alameda County Sheriff's Office,2022,1,0,6
+388,Alameda County Sheriff's Office,2023,1,0,6
+389,Alameda County Sheriff's Office,2024,1,0,8
+390,Anaheim Police Department,2022,1,0,6
+391,Anaheim Police Department,2023,2,0,6
+392,Anaheim Police Department,2024,1,0,7
+393,Arizona Department of Public Safety,2022,5,0,10
+394,Arizona Department of Public Safety,2023,5,0,11
+395,Arizona Department of Public Safety,2024,5,0,12
+396,Arkansas State Police,2022,5,1,8
+397,Arkansas State Police,2023,4,1,8
+398,Arkansas State Police,2024,4,0,8
+399,Arlington Police Department,2022,2,0,4
+400,Arlington Police Department,2023,3,0,5
+401,Arlington Police Department,2024,2,0,5
+402,Cherokee County Sheriff's Office,2022,3,0,7
+403,Cherokee County Sheriff's Office,2023,4,0,8
+404,Cherokee County Sheriff's Office,2024,4,0,8
+405,Colorado State Patrol,2022,2,0,5
+406,Colorado State Patrol,2023,1,0,4
+407,Colorado State Patrol,2024,2,0,6
+408,Dallas Police Department,2022,7,0,16
+409,Dallas Police Department,2023,6,0,15
+410,Dallas Police Department,2024,7,0,18
+411,Dayton Police Department,2022,1,0,4
+412,Dayton Police Department,2023,1,0,4
+413,Dayton Police Department,2024,1,0,5
+414,DeKalb County Police Department,2022,3,0,10
+415,DeKalb County Police Department,2023,4,0,12
+416,DeKalb County Police Department,2024,4,0,13
+417,Des Moines Police Department,2022,2,0,6
+418,Des Moines Police Department,2023,3,0,8
+419,Des Moines Police Department,2024,2,0,8
+420,Escondido Police Department,2022,3,0,6
+421,Escondido Police Department,2023,4,0,8
+422,Escondido Police Department,2024,3,0,8
+423,Fort Wayne Police Department,2022,5,1,8
+424,Fort Wayne Police Department,2023,4,0,8
+425,Fort Wayne Police Department,2024,4,0,9
+426,Henderson Police Department,2022,3,0,7
+427,Henderson Police Department,2023,2,0,6
+428,Henderson Police Department,2024,2,0,7
+429,Kansas Highway Patrol,2022,1,0,4
+430,Kansas Highway Patrol,2023,0,0,4
+431,Kansas Highway Patrol,2024,1,0,5
+432,Kentucky State Police,2022,7,3,11
+433,Kentucky State Police,2023,6,2,11
+434,Kentucky State Police,2024,7,1,12
+435,Kern County Sheriff's Office,2022,10,4,16
+436,Kern County Sheriff's Office,2023,4,0,11
+437,Kern County Sheriff's Office,2024,9,0,17
+438,Knoxville Police Department,2022,3,0,7
+439,Knoxville Police Department,2023,4,0,8
+440,Knoxville Police Department,2024,3,0,8
+441,Lafayette Police Department,2022,1,0,4
+442,Lafayette Police Department,2023,1,0,5
+443,Lafayette Police Department,2024,1,0,6
+444,Lee County Sheriff's Office,2022,2,0,7
+445,Lee County Sheriff's Office,2023,2,0,7
+446,Lee County Sheriff's Office,2024,2,0,8
+447,Madison Police Department,2022,2,0,4
+448,Madison Police Department,2023,1,0,4
+449,Madison Police Department,2024,2,0,5
+450,Maricopa County Sheriff's Office,2022,2,0,4
+451,Maricopa County Sheriff's Office,2023,2,0,4
+452,Maricopa County Sheriff's Office,2024,2,0,5
+453,Marion County Sheriff's Office,2022,3,0,8
+454,Marion County Sheriff's Office,2023,3,0,9
+455,Marion County Sheriff's Office,2024,3,0,10
+456,Mobile Police Department,2022,2,0,6
+457,Mobile Police Department,2023,3,0,7
+458,Mobile Police Department,2024,2,0,8
+459,New York State Police,2022,5,2,8
+460,New York State Police,2023,5,1,9
+461,New York State Police,2024,5,0,10
+462,Orlando Police Department,2022,2,0,7
+463,Orlando Police Department,2023,1,0,6
+464,Orlando Police Department,2024,2,0,8
+465,Palm Beach County Sheriff's Office,2022,2,0,6
+466,Palm Beach County Sheriff's Office,2023,3,0,7
+467,Palm Beach County Sheriff's Office,2024,2,0,8
+468,Pierce County Sheriff's Office,2022,2,0,7
+469,Pierce County Sheriff's Office,2023,2,0,7
+470,Pierce County Sheriff's Office,2024,2,0,8
+471,Polk County Sheriff's Office,2022,5,2,8
+472,Polk County Sheriff's Office,2023,5,1,9
+473,Polk County Sheriff's Office,2024,5,0,10
+474,Richmond County Sheriff's Office,2022,1,0,5
+475,Richmond County Sheriff's Office,2023,2,0,5
+476,Richmond County Sheriff's Office,2024,2,0,6
+477,Riverside Police Department,2022,4,0,9
+478,Riverside Police Department,2023,4,0,10
+479,Riverside Police Department,2024,4,0,11
+480,Shelby County Sheriff's Office,2022,1,0,4
+481,Shelby County Sheriff's Office,2023,2,0,5
+482,Shelby County Sheriff's Office,2024,1,0,6
+483,Spokane Police Department,2022,2,0,5
+484,Spokane Police Department,2023,2,0,6
+485,Spokane Police Department,2024,2,0,6
+486,St. Paul Police Department,2022,1,0,4
+487,St. Paul Police Department,2023,1,0,4
+488,St. Paul Police Department,2024,1,0,5
+489,Suffolk County Police Department,2022,3,0,7
+490,Suffolk County Police Department,2023,3,0,8
+491,Suffolk County Police Department,2024,3,0,9
+492,Vallejo Police Department,2022,1,0,5
+493,Vallejo Police Department,2023,1,0,5
+494,Vallejo Police Department,2024,1,0,6
+495,Washington County Sheriff's Office,2022,3,0,6
+496,Washington County Sheriff's Office,2023,3,0,6
+497,Washington County Sheriff's Office,2024,3,0,7
+498,Washington Metropolitan Police Department,2022,4,0,10
+499,Washington Metropolitan Police Department,2023,5,0,11
+500,Washington Metropolitan Police Department,2024,5,0,12
+501,Washington State Patrol,2022,2,0,5
+502,Washington State Patrol,2023,2,0,5
+503,Washington State Patrol,2024,2,0,6
+504,Wichita Police Department,2022,4,0,9
+505,Wichita Police Department,2023,6,1,11
+506,Wichita Police Department,2024,5,0,12
+507,Anderson County Sheriff's Office,2022,2,0,4
+508,Anderson County Sheriff's Office,2023,2,0,5
+509,Anderson County Sheriff's Office,2024,2,0,5
+510,Columbia Police Department,2022,2,0,5
+511,Columbia Police Department,2023,2,0,6
+512,Columbia Police Department,2024,2,0,7
+513,Columbus Police Department,2022,2,0,5
+514,Columbus Police Department,2023,1,0,6
+515,Columbus Police Department,2024,2,0,6
+516,Fremont Police Department,2022,1,0,3
+517,Fremont Police Department,2023,3,1,5
+518,Fremont Police Department,2024,2,0,5
+519,Fresno County Sheriff's Office,2022,3,0,5
+520,Fresno County Sheriff's Office,2023,3,0,6
+521,Fresno County Sheriff's Office,2024,3,0,7
+522,Gwinnett County Police Department,2022,1,0,6
+523,Gwinnett County Police Department,2023,1,0,6
+524,Gwinnett County Police Department,2024,1,0,7
+525,Huntsville Police Department,2022,2,0,6
+526,Huntsville Police Department,2023,1,0,6
+527,Huntsville Police Department,2024,2,0,7
+528,Jefferson Parish Sheriff's Office,2022,3,0,7
+529,Jefferson Parish Sheriff's Office,2023,3,0,7
+530,Jefferson Parish Sheriff's Office,2024,3,0,8
+531,Massachusetts State Police,2022,3,0,6
+532,Massachusetts State Police,2023,2,0,6
+533,Massachusetts State Police,2024,2,0,7
+534,Missouri State Highway Patrol,2022,2,0,5
+535,Missouri State Highway Patrol,2023,1,0,5
+536,Missouri State Highway Patrol,2024,2,0,6
+537,Pueblo Police Department,2022,2,0,4
+538,Pueblo Police Department,2023,2,0,5
+539,Pueblo Police Department,2024,2,0,5
+540,St. Petersburg Police Department,2022,2,0,6
+541,St. Petersburg Police Department,2023,1,0,6
+542,St. Petersburg Police Department,2024,1,0,8
+543,Tulare County Sheriff's Office,2022,1,0,4
+544,Tulare County Sheriff's Office,2023,1,0,5
+545,Tulare County Sheriff's Office,2024,1,0,5
+546,U.S. Marshals Service,2022,17,11,23
+547,U.S. Marshals Service,2023,18,11,25
+548,U.S. Marshals Service,2024,18,9,26
+549,Volusia County Sheriff's Office,2022,3,0,6
+550,Volusia County Sheriff's Office,2023,1,0,4
+551,Volusia County Sheriff's Office,2024,2,0,6
+552,Douglas County Sheriff's Office,2022,3,0,7
+553,Douglas County Sheriff's Office,2023,6,1,10
+554,Douglas County Sheriff's Office,2024,4,0,9
+555,Franklin County Sheriff's Office,2022,3,0,7
+556,Franklin County Sheriff's Office,2023,4,0,9
+557,Franklin County Sheriff's Office,2024,4,0,9
+558,Greenville County Sheriff's Office,2022,3,0,6
+559,Greenville County Sheriff's Office,2023,3,0,6
+560,Greenville County Sheriff's Office,2024,3,0,7
+561,New Mexico State Police,2022,7,3,11
+562,New Mexico State Police,2023,2,0,6
+563,New Mexico State Police,2024,6,0,11
+564,Prince George's County Police Department,2022,6,2,10
+565,Prince George's County Police Department,2023,3,0,7
+566,Prince George's County Police Department,2024,5,0,10
+567,Snohomish County Sheriff's Office,2022,0,0,3
+568,Snohomish County Sheriff's Office,2023,0,0,3
+569,Snohomish County Sheriff's Office,2024,0,0,3
+570,South Carolina Highway Patrol,2022,2,0,7
+571,South Carolina Highway Patrol,2023,3,0,7
+572,South Carolina Highway Patrol,2024,3,0,8
+573,Tennessee Highway Patrol,2022,3,1,5
+574,Tennessee Highway Patrol,2023,4,1,6
+575,Tennessee Highway Patrol,2024,3,1,6
+576,Texas Department of Public Safety,2022,11,3,20
+577,Texas Department of Public Safety,2023,12,1,23
+578,Texas Department of Public Safety,2024,12,0,25
+579,Fort Worth Police Department,2022,3,0,7
+580,Fort Worth Police Department,2023,3,0,8
+581,Fort Worth Police Department,2024,3,0,9
+582,Madison County Sheriff's Office,2022,2,0,5
+583,Madison County Sheriff's Office,2023,3,0,6
+584,Madison County Sheriff's Office,2024,2,0,6
+585,Montgomery County Police Department,2022,4,0,7
+586,Montgomery County Police Department,2023,3,0,6
+587,Montgomery County Police Department,2024,3,0,7
+588,Lakewood Police Department,2022,5,2,7
+589,Lakewood Police Department,2023,5,2,8
+590,Lakewood Police Department,2024,5,1,9
+591,Lake County Sheriff's Office,2022,2,0,5
+592,Lake County Sheriff's Office,2023,2,0,5
+593,Lake County Sheriff's Office,2024,2,0,6
+594,Brevard County Sheriff's Office,2022,3,1,5
+595,Brevard County Sheriff's Office,2023,2,0,4
+596,Brevard County Sheriff's Office,2024,2,0,5
+597,Indianapolis Metropolitan Police Department,2022,6,0,12
+598,Indianapolis Metropolitan Police Department,2023,6,0,13
+599,Indianapolis Metropolitan Police Department,2024,6,0,15

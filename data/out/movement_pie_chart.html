@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-4bfd132985248d6f85a0a76b09d3cf03"}, "mark": {"type": "arc"}, "encoding": {"color": {"field": "Movement", "scale": {"scheme": "category20c"}, "type": "nominal"}, "theta": {"field": "Count", "type": "quantitative"}, "tooltip": [{"field": "Movement", "type": "nominal"}, {"field": "Count", "type": "quantitative"}]}, "height": 400, "title": "Aggressive Physical Movement Distribution", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-4bfd132985248d6f85a0a76b09d3cf03": [{"Movement": "Unknown", "Count": 18847}, {"Movement": "Brandished weapon", "Count": 3498}, {"Movement": "Used weapon", "Count": 2694}, {"Movement": "Self-inflicted injury", "Count": 2037}, {"Movement": "Advanced toward officer(s)", "Count": 1360}, {"Movement": "Struggled", "Count": 1103}, {"Movement": "Uncertain", "Count": 802}, {"Movement": "Sudden threatening movement", "Count": 479}, {"Movement": "None/Police alleged vehicular assault", "Count": 428}, {"Movement": "Reached to waist", "Count": 175}, {"Movement": "Intentional vehicular assault", "Count": 70}, {"Movement": "Reached for waist", "Count": 3}, {"Movement": "Police allege vehicular assault", "Count": 1}, {"Movement": "Edged weapon/Unspecified", "Count": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
